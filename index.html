@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bish-Bosh2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bish-Bosh 2.0</h1>
+      </header>
+    
+      <main>
+        <p>Bish-Bosh genererar en talserie där vissa tal byts ut mot "Bish", 
+            "Bosh", eller "Bish-Bosh" beroende på delbarhet.
+             Perfekt för att visa loopar och villkor i programmering!</p>
+    
+        <label for="bish">Bish (delbart med):</label>
+        <input type="number" id="bish" required>
+    
+        <label for="bosh">Bosh (delbart med):</label>
+        <input type="number" id="bosh" required>
+    
+        <label for="limit">Gräns:</label>
+        <input type="number" id="limit" required>
+    
+        <button id="run">Kör</button>
+    
+        <div id="output"></div>
+      </main>
+    
+      <footer>
+        <p>© 2023 Mona Babaei</p>
+      </footer>
+    
+      <script src="bishbosh.js"></script>
+
+    
+</body>
+</html>
